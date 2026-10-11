@@ -141,7 +141,7 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     // Send email via EmailJS
     emailjs.send("service_ty0nll8", "template_0dz0q3p", {
         from_email: email,
-        to_email: "malubamulebi@gmail.com",
+        to_email: "",
         subject: subject,
         message: message,
     }).then(function(response) {
